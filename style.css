@@ -5,16 +5,18 @@ body {
 
 .main {
  height: 700px;
- background-image: url(images/misc/background.jpg);
+ /* background-image: url(images/misc/background.jpg);*/
  background-position: center center;
  background-repeat: no-repeat;
  background-size: cover;
 }
 
-#container {
- height: 700px;
- width: 1000px;
- margin: 0 auto;
+@media screen and (min-width: 1000px) {
+ #container {
+  height: 700px;
+  width: 1000px;
+  margin: 0 auto;
+ }
 }
 
 .header {
@@ -23,7 +25,6 @@ body {
 }
 
 .logo {
- float: left;
  width: 150px;
  height: 150px;
  margin-top: 10px;
@@ -50,26 +51,19 @@ span {
 }
 
 h1 {
- font-size: 60px;
- margin-left: 500px;
+ font-size: 70px;
+ margin-left: 0px;
  color: #545454;
- text-align: justify;
+ text-align: center;
  clear: both;
+ padding-top: 200px;
 }
 
 h2 {
  font-size: 30px;
  color: #545454;
- margin-left: 550px;
- text-align: justify;
+ margin-left: 0px;
+ text-align: center;
  clear: both;
-}
-
-h3 {
- margin-top: 0px;
- margin-left: 500px;
- font-size: 20px;
- color: #fff;
- text-align: justify;
- clear: both;
+ margin-top: -40px;
 }
