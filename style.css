@@ -1,5 +1,6 @@
 body {
  margin: 0px;
+ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main {
@@ -23,8 +24,8 @@ body {
 
 .logo {
  float: left;
- width: 100px;
- height: 100px;
+ width: 150px;
+ height: 150px;
  margin-top: 10px;
 }
 
@@ -34,8 +35,41 @@ nav {
 }
 
 .navbar {
- color: #fff;
+ color: #545454;
  font-size: 20px;
  margin-left: 25px;
  text-decoration: none;
+}
+
+.navbar:hover {
+ text-decoration: underline;
+}
+
+span {
+ width: 100%;
+}
+
+h1 {
+ font-size: 60px;
+ margin-left: 500px;
+ color: #545454;
+ text-align: justify;
+ clear: both;
+}
+
+h2 {
+ font-size: 30px;
+ color: #545454;
+ margin-left: 550px;
+ text-align: justify;
+ clear: both;
+}
+
+h3 {
+ margin-top: 0px;
+ margin-left: 500px;
+ font-size: 20px;
+ color: #fff;
+ text-align: justify;
+ clear: both;
 }
