@@ -50,19 +50,17 @@ span {
  width: 100%;
 }
 
-h1 {
+.homeh1 {
  font-size: 70px;
- margin-left: 0px;
  color: #545454;
  text-align: center;
  clear: both;
  padding-top: 200px;
 }
 
-h2 {
+.homeh2 {
  font-size: 30px;
  color: #545454;
- margin-left: 0px;
  text-align: center;
  clear: both;
  margin-top: -40px;
