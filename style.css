@@ -87,3 +87,8 @@ span {
  clear: both;
  padding-top: 80px;
 }
+
+.portfolio {
+ width: 300px;
+ height: 250px;
+}
